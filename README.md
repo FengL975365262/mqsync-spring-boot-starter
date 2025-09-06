@@ -1,8 +1,5 @@
 # mqsync-spring-boot-starter
 简单的mq消息异步转同步的实现
-## 整体流程如下
-<img width="3724" height="1764" alt="image" src="https://github.com/user-attachments/assets/b6b05d2b-6c9f-4c52-bb61-0d6f358587ae" />
-
 <br/>
 ## 使用方式
 ### 环境 
@@ -24,3 +21,6 @@ springboot3以上，使用一款mq
 #### 应答方处理和请求方类似
 1.  收到请求时，首先调用MQMessageResponseManage.recvRequest再进行业务处理
 2.  后再任意时刻都可调用MQMessageResponseManage.sendResponse发送应答消息
+<br/>
+## 整体流程如下
+<img width="3724" height="1764" alt="image" src="https://github.com/user-attachments/assets/b6b05d2b-6c9f-4c52-bb61-0d6f358587ae" />
