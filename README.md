@@ -2,14 +2,15 @@
 简单的mq消息异步转同步的实现
 ## 整体流程如下
 <img width="3724" height="1764" alt="image" src="https://github.com/user-attachments/assets/b6b05d2b-6c9f-4c52-bb61-0d6f358587ae" />
+
 <br/>
 ## 使用方式
 ### 环境 
 springboot3以上，使用一款mq
 ### 代码
 #### 配置application.yml
-mq.sync.request.actor: true #作为请求方时
-mq.sync.response.actor: true #作为应答方时
+1.  mq.sync.request.actor: true #作为请求方时
+2.  mq.sync.response.actor: true #作为应答方时
 #### 实现MQRequestMessageSender.java接口，并注入到容器中
 1.  作为请求方时，指定bean名称为**requestSender**
 2.  作为应答方时，指定bean名称为**responseSender**
