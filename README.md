@@ -1,7 +1,7 @@
 # mqsync-spring-boot-starter
 简单的mq消息异步转同步的实现
 ## 整体流程如下
-<img width="6868" height="6604" alt="image" src="https://github.com/user-attachments/assets/938bcae5-d56b-487e-b049-44bba68ab248" />
+<img width="3724" height="1764" alt="image" src="https://github.com/user-attachments/assets/b6b05d2b-6c9f-4c52-bb61-0d6f358587ae" />
 <br/>
 ## 使用方式
 ### 环境 
